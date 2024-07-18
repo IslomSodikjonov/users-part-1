@@ -1,0 +1,152 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 1200px;
+    margin: 0 auto;
+}
+
+
+.title {
+    text-align: center;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.main_box {
+    display: grid;
+    grid-template-columns: repeat(3, 282px);
+    justify-content: center;
+    gap: 25px 25px
+}
+
+.user_box {
+    width: 282px;
+    height: 205px;
+    border: 1px solid #007FFF;
+    background:  #F0F0F0;
+    border-radius: 15px;
+    padding:  20px 25px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: start;
+}
+
+.username {
+    font-family: 'Roboto';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000;
+}
+
+.company {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+
+    color: rgba(0, 0, 0, 0.55);
+}
+
+.website {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 0.55); 
+}
+
+.phone_number {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: rgba(0, 0, 0, 0.55); 
+}
+
+.more {
+    width: 232px;
+    height: 42px;
+    background: #0071E3;
+    border-radius: 4px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+}
+
+.box_btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 60px;
+    gap: 20px;
+}
+
+.about_us {
+    width: 232px;
+    height: 42px;
+    background: #0071E3;
+    border-radius: 4px;
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    text-align: center;
+    color: #FFFFFF;
+    border: none;
+}
+
+
+button {
+    cursor: pointer;
+}
+
+button:hover {
+    scale: 1.05;
+}
+
+button:active {
+    scale: 0.95;
+}
+
+.about_main {
+    margin: 0 auto;
+    width: 1008px;
+    
+}
+
+.about_title {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 59px;
+    text-align: center;
+    color: #000000;
+    margin-top: 50px;
+    margin-bottom: 55px;
+}
+
+.about_p {
+    font-family: 'Gilroy';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 17px;
+    color: #000000;
+}
